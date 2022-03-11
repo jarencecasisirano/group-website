@@ -1,8 +1,7 @@
 ---
 layout: default
+title: Project
 ---
-
-## Project
 
 {{ site.description }}
 
