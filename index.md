@@ -16,5 +16,5 @@ Have any questions about what we do? [We'd love to hear from you!](mailto:{{ sit
 ## Blog Posts
 
 {% for post in site.blogposts %}
-- {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url | relative_url }})
+- {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url }}) by {{ post.author }}
 {% endfor %}
