@@ -13,4 +13,10 @@ The project is led by {{ lead.name }}.
 
 Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
 
+## Blog posts
+
+{% for post in site.blogposts %}
+- {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url }}) by {{ post.author }}
+{% endfor %}
+
 {% include post_list.html %}
