@@ -13,6 +13,4 @@ The project is led by {{ lead.name }}.
 
 Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
 
-## Blog Posts
-
 {% include post_list.html %}
