@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## Project
+
 {{ site.description }}
 
 ## Funders
