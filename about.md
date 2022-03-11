@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Project
+title: About
 ---
+
+## Project
 
 {{ site.description }}
 
